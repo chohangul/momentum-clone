@@ -1,15 +1,7 @@
-// const a = 5;
-// const b = 2;
-// const myName = "hangeul"
-const a = 5;
-const b = 2;
-let myName = "hangeul"
+// const amIFat = true;
+const amIFat = null;
 
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log("hello " + myName);
+let something; //undefined variable
 
-myName = "JJogeul"
-
-console.log("hello " + myName)
+console.log(amIFat);
+console.log(something);
