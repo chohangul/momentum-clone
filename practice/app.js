@@ -1,8 +1,22 @@
-const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+// const playerName = "nico";
+// const playerPoints = 121212;
+// const playerHandsome = false;
+// const playerFat = "little bit";
 
-console.log(daysOfWeek);
+// const player = ["nico", 1212, false, "little bit"];
 
-// Add one more day to the array
-daysOfWeek.push("sun");
+const player = {
+  name: "nico",
+  points: 10,
+  fat: true,
+};
 
-console.log(daysOfWeek);
+console.log(player);
+// console.log(player.name);
+console.log(player["name"]);
+console.log(player.fat);
+player.fat = false;
+console.log(player.fat);
+player.lastname = "potato";
+player.points = player.points + 15;
+console.log(player);
