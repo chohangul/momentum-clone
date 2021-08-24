@@ -1,7 +1,8 @@
-// const amIFat = true;
-const amIFat = null;
+const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
 
-let something; //undefined variable
+console.log(daysOfWeek);
 
-console.log(amIFat);
-console.log(something);
+// Add one more day to the array
+daysOfWeek.push("sun");
+
+console.log(daysOfWeek);
