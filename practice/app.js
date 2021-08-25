@@ -1,23 +1,11 @@
-// function sayHello(nameOfPerson, age) {
-//   console.log("Hello my name is " + nameOfPerson + " and I'm " + age);
-// }
+// Conditionals
 
-// sayHello("nico", 10);
-// sayHello("dal", 23);
-// sayHello("lynn", 21);
+const age = parseInt(prompt("How old are you?"));
 
-// function plus(a, b) {
-//   console.log(a / b);
-// }
+// console.log(isNaN(age));
 
-// plus(3, 6);
-
-const player = {
-  name: "nico",
-  sayHello: function (otherPersonsName) {
-    console.log("Hello " + otherPersonsName + ", nice to meet you!");
-  },
-};
-
-player.sayHello("lynn");
-player.sayHello("nico");
+if (isNaN(age)) {
+  console.log("Please write a number");
+} else {
+  console.log("Thank you for writing your age");
+}
