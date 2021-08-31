@@ -1,0 +1,39 @@
+h1 {
+  margin: 10px 0px;
+}
+
+.generateNumber {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.generateNumber h3 {
+  padding-right: 10px;
+}
+
+.generateNumber input {
+  display: flex;
+  height: 25px;
+}
+
+.guessNumber {
+  display: flex;
+  /* margin-bottom: 20px; */
+}
+
+.guessNumber span {
+  padding-right: 10px;
+}
+
+.guessNumber input[type="number"] {
+  margin-right: 5px;
+}
+
+.gameResult h3 {
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
