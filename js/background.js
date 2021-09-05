@@ -42,6 +42,7 @@ const colors = [
 ];
 
 const body = document.querySelector("body");
+const body = document.querySelector("body");
 
 function colorNum() {
   let color = [];
