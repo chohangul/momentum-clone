@@ -69,5 +69,8 @@ function colorNum() {
   const deg = Math.random() * 360;
 
   body.style.background = `linear-gradient(${deg}deg, ${bgColor}, ${bgColor2}, ${bgColor3}, ${bgColor4})`;
+<<<<<<< HEAD
 }
+=======
+>>>>>>> main
 colorNum();
