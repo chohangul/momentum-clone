@@ -1,0 +1,167 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+#main-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+#todo-board {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border: white solid 7px;
+  border-radius: 20px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+#todo-board::-webkit-scrollbar {
+  display: none;
+}
+
+#title {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+#clock {
+  color: white;
+  /* border: white solid 10px; */
+  border-radius: 20px;
+  /* height: 60px; */
+  display: flex;
+  align-items: center;
+  /* padding: 20px; */
+  /* width: 300px; */
+  position: absolute;
+  top: 2px;
+  left: 30px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#login-form input:focus {
+  outline: none;
+  color: white;
+}
+
+#login-form input::placeholder {
+  color: white;
+}
+
+#login-form input:first-child {
+  width: 300px;
+  background-color: white 0.9;
+  padding: 10px;
+  border: rgba(255, 255, 255, 0.7) solid 10px;
+  border-radius: 20px;
+  background: transparent;
+}
+
+#login-form input:last-child {
+  width: 100px;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#greeting {
+  color: white;
+}
+
+#todo-form input {
+  width: 250px;
+  height: 10px;
+  background-color: white 0.9;
+  padding: 10px;
+  /* border: rgba(255, 255, 255, 0.7) solid 3px; */
+  /* border-radius: 10px; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: rgba(255, 255, 255, 0.9) solid 2px;
+  background: transparent;
+  margin: 0px;
+}
+
+#todo-form input:focus {
+  outline: none;
+  color: white;
+}
+
+#todo-form input::placeholder {
+  color: white;
+}
+
+#todo-list li {
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: white dashed 1px;
+  /* align-items: center; */
+}
+#todo-list li button {
+  font-size: 15px;
+  margin-right: 10px;
+  background: transparent;
+  border: none;
+  color: white;
+  position: relative;
+  top: 2.5px;
+}
+
+#todo-list {
+  padding-left: 5px;
+}
+
+#quote {
+  margin-top: 100px;
+}
+
+#weather {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#weather span {
+  font-size: 25px;
+  padding-bottom: 3px;
+}
+
+#quote {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: dashed 0.5px;
+  border-radius: 10px;
+  padding: 15px 10px;
+}

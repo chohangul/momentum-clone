@@ -1,24 +1,48 @@
 const quotes = [
   {
-    quote: "No great man ever complains of want of opportunity.",
-    author: "me",
-  },
-  {
-    quote: "Do not accustom yourself to use big words for little matters.",
-    author: "Jonson",
-  },
-  {
-    quote: "A day without laughter is a day wasted.",
-    author: "hey",
+    quote: "I just wanted to take another look at you",
+    author: "- A star is born -",
   },
   {
     quote:
-      "Patterning your life around other's opinions is nothing more than slavery.",
-    author: "you",
+      "The greatest thing you'll ever learn is just to love and be loved in return",
+    author: "- Moulin Rouge -",
   },
   {
-    quote: "love what you have.",
-    author: "we",
+    quote:
+      "It's only after we've lost everything that we're free to do anything",
+    author: "- Fight Club, Tyler Durben -",
+  },
+  {
+    quote:
+      "It is not our abilities that show what we truly are, it is our choices",
+    author: "- Dumbledore, Harry Potter -",
+  },
+  {
+    quote:
+      "The past can hurt, but you can either run from it, or learn from it",
+    author: "- Lion King -",
+  },
+  {
+    quote: "If we didn't do what we loved, we wouldn't exist",
+    author: "- Adonis -",
+  },
+  {
+    quote:
+      "At some point you've got to decide for yourself who you gonna be. Can't let nobody make that decision for you",
+    author: "- Juan, Moonlight -",
+  },
+  {
+    quote: "Every man dies, not every man really lives",
+    author: "- Braveheart -",
+  },
+  {
+    quote: "Ideals are peaceful, history is violent",
+    author: "- Don Collier, Fury -",
+  },
+  {
+    quote: " Carpe Diem, Seize the day. Make your lives extraordinary.",
+    author: "- Robin Williams, Dead Poets Society -",
   },
 ];
 
