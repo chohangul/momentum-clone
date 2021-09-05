@@ -90,6 +90,8 @@ body {
 
 #greeting {
   color: white;
+  position: relative;
+  top: -20px;
 }
 
 #todo-form input {
