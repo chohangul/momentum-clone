@@ -2,6 +2,7 @@ const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const loginSubmit = document.querySelector("#login-form input:last-child");
 const greeting = document.querySelector("#greeting");
+const toDoBoard = document.querySelector("#todo-board");
 
 const API_KEY = "cea4f660385657856be00cbe5ed39e44";
 const weather = document.querySelector("#weather span:last-child");
@@ -35,6 +36,7 @@ function onLoginSubmit(event) {
   loginSubmit.classList.add(HIDDEN_CLASSNAME);
   weather.classList.remove(HIDDEN_CLASSNAME);
   city.classList.remove(HIDDEN_CLASSNAME);
+  toDoBoard.classList.remove(HIDDEN_CLASSNAME);
   const username = loginInput.value;
   localStorage.setItem(USERNAME_KEY, username);
   paintGreetings(username);
@@ -45,6 +47,7 @@ function paintGreetings(username) {
   greeting.classList.remove(HIDDEN_CLASSNAME);
   weather.classList.remove(HIDDEN_CLASSNAME);
   city.classList.remove(HIDDEN_CLASSNAME);
+  toDoBoard.classList.remove(HIDDEN_CLASSNAME);
 }
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
