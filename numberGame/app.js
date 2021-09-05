@@ -19,16 +19,14 @@ function resultPrint(guessValue) {
   gameResultNumber.innerText = `You chose: ${guessValue} the machine chose: ${randomNumber}.`;
   if (guessValue === randomNumber) {
     gameResult.innerText = "You won!";
-    console.log(gameResult);
   } else {
     gameResult.innerText = "You lost!";
-    console.log(gameResult);
   }
 }
 
 function getRandomNumber(max) {
   const maxValue = Math.floor(max);
-  return Math.floor(Math.random() * (mamaxValue - min + 1)) + min;
+  return Math.floor(Math.random() * (maxValue - min + 1)) + min;
 }
 
 playSubmit.addEventListener("submit", playBtnClick);
