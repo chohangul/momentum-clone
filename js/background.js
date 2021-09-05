@@ -46,7 +46,7 @@ const body = document.querySelector("body");
 function colorNum() {
   let color = [];
   let i = 0;
-  while (i < 4) {
+  while (i < 3) {
     let n = Math.floor(Math.random() * colors.length);
     if (!sameNum(n)) {
       color.push(n);
@@ -64,13 +64,9 @@ function colorNum() {
   const bgColor = colors[color[0]];
   const bgColor2 = colors[color[1]];
   const bgColor3 = colors[color[2]];
-  const bgColor4 = colors[color[3]];
 
   const deg = Math.random() * 360;
 
-  body.style.background = `linear-gradient(${deg}deg, ${bgColor}, ${bgColor2}, ${bgColor3}, ${bgColor4})`;
-<<<<<<< HEAD
+  body.style.background = `linear-gradient(${deg}deg, ${bgColor}, ${bgColor2}, ${bgColor3})`;
 }
-=======
->>>>>>> main
 colorNum();
