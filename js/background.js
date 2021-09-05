@@ -46,7 +46,7 @@ const body = document.querySelector("body");
 function colorNum() {
   let color = [];
   let i = 0;
-  while (i < 4) {
+  while (i < 3) {
     let n = Math.floor(Math.random() * colors.length);
     if (!sameNum(n)) {
       color.push(n);
