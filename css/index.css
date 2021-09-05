@@ -16,11 +16,11 @@ body {
 }
 
 #todo-board {
-  width: 250px;
+  width: 18%;
   height: 250px;
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 5%;
+  top: 19%;
   border: white solid 7px;
   border-radius: 20px;
   overflow-y: scroll;
@@ -93,7 +93,7 @@ body {
 }
 
 #todo-form input {
-  width: 250px;
+  width: 100%;
   height: 10px;
   background-color: white 0.9;
   padding: 10px;
