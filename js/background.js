@@ -64,12 +64,9 @@ function colorNum() {
   const bgColor = colors[color[0]];
   const bgColor2 = colors[color[1]];
   const bgColor3 = colors[color[2]];
+  const bgColor4 = colors[color[3]];
 
   const deg = Math.random() * 360;
 
-  console.log(bgColor);
-  console.log(bgColor2);
-  console.log(bgColor3);
-  body.style.background = `linear-gradient(${deg}deg, ${bgColor}, ${bgColor2}, ${bgColor3})`;
-}
+  body.style.background = `linear-gradient(${deg}deg, ${bgColor}, ${bgColor2}, ${bgColor3}, ${bgColor4})`;
 colorNum();
